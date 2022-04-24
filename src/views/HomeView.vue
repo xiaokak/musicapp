@@ -3,6 +3,7 @@
     <top-nav></top-nav>
     <swiper-com></swiper-com>
     <icon-list></icon-list>
+    <music-list></music-list>
   </div>
 </template>
 
@@ -10,11 +11,13 @@
 import topNav from '@/components/topNav.vue'
 import swiperCom from '@/components/swiperCom'
 import iconList from "@/components/iconList"
-import IconList from "@/components/iconList";
+import musicList from "@/components/musicList";
+import MusicList from "@/components/musicList";
 
 export default {
   components: {
-    IconList,
+    MusicList,
+    iconList,
     topNav,
     swiperCom
   },
